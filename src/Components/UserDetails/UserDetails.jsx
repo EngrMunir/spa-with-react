@@ -5,7 +5,7 @@ const UserDetails = () => {
     const {name, website}= user;
     return (
         <div>
-            <h2>User Details component {name}</h2>
+            <h2>Details about user: {name}</h2>
             <p>website: {website}</p>
         </div>
     );
